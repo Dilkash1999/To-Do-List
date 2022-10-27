@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <link rel="stylesheet" href="domtask4.css">
+    </head>
+    <body>
+        <div class="div1">
+            <form action="">
+                <label for="name" style="font-weight: bold;">Name </label>
+                <input type="text" name="name" id="name" style="color: black;" required /><br>
+                <div id="Date">
+                <label for="date" style="font-weight: bold; ">Date</label>
+                <input type="date" name="date" id="date" style ="color: black;" required><br>
+                </div>
+                <input type="button" name="save" value="Save" id="save" onclick="Save(event)">  <input type="button" name="load" value="Load" id="load" onclick="Load()">  <input type="submit" value="Submit" id="submit" onclick="addData(event)">
+            </form>
+        </div>
+        <script src="domtask4.js"></script>
+
+    </body>
+    </html>

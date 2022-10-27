@@ -1,0 +1,188 @@
+.my-custom-scrollbar {
+    position: relative;
+    height: 275px;
+    overflow: auto;
+    margin-right: 300px;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+    margin-top: 50px;
+}
+
+td{
+    padding: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+table{
+    margin-top: 10px;
+    margin-left: 390px;
+}
+
+table,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#complete{
+display: block;
+/*padding: auto;
+margin: 5px 5px 3px 3px;*/
+
+    margin: auto;
+    background-image:linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+}
+
+#delete{
+    display: block;
+    /*padding: auto;*/
+
+    margin: auto;
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+}
+
+#edit{
+    display: block;
+    /*padding: auto;*/
+    background-image: linear-gradient(to right, #2c3e50 0%, #3498db  51%, #2c3e50  100%);
+    margin: auto;
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+}
+
+input{
+    width: 150px;
+    margin-top: 10px;
+    border: 1.5px solid black;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+}
+
+input:invalid{
+    border-color: brown;
+}
+
+input:invalid:required {
+    
+  }
+
+  input:valid {
+    border: 2px solid black;
+  }
+input[type=date]{
+    margin-left: 8px;
+    width: 155px;
+}
+
+#save{
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    width: 70px;
+    padding: 2px 2px;
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 5px;
+}
+ 
+#save:hover{
+    background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+}
+
+#load{
+    background-image: linear-gradient(to right, #ED4264 0%, #FFEDBC  51%, #ED4264  100%);
+    background-size: 200% auto;
+    padding: 2px 2px;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    width: 70px;
+    transition: .5s;
+    margin-left: 8px;
+}
+
+#load:hover{
+
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+#submit{
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    padding: 2px 2px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    width: 70px;
+    margin-left: 8px;
+}
+
+#submit:hover{
+    background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+}
+#Date{
+    margin-top: 5px;
+}
+/*body{
+    margin: 50px 50px 50px 50px;
+}*/
+
+.div1{
+    text-align: center;
+    margin-top: 100px;
+}
+/*
+#submit{
+    margin-left: 195px;
+    margin-top: 5px;
+    width: 120px;
+
+}*/
+
+button{
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    border: 1.5px solid black;
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover{
+    opacity: .5;
+}
+
+img{
+    width: inherit;
+    height: 100px;
+}
